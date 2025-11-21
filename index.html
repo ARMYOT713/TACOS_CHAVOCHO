@@ -44,6 +44,10 @@
 					<ul class="menu">
 						<li><a href="#">Inicio</a></li>
 						<li><a href="#">Tacos</a></li>
+						<li><a href="#menu">Menú</a></li>
+                        <li><a href="#promociones">Promociones</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
 					
 					</ul>
 
@@ -340,6 +344,85 @@
 					</div>
 				</div>
 			</section>
+
+								<!-- PROMOCIONES -->
+    <section id="promociones">
+        <div class="section-header fade-in">
+            <h2 class="section-title">¿Por qué elegirnos?</h2>
+            <p class="section-subtitle">Nos comprometemos a ofrecerte la mejor experiencia gastronómica</p>
+        </div>
+        <div class="promo-grid">
+            <div class="promo-card">
+                <div class="promo-icon">⚡</div>
+                <h3 class="promo-title">Rápido y Fresco</h3>
+                <p class="promo-description">Preparamos tu comida al momento para garantizar frescura y sabor</p>
+            </div>
+            <div class="promo-card">
+                <div class="promo-icon">🚚</div>
+                <h3 class="promo-title">Entrega a Domicilio</h3>
+                <p class="promo-description">Recibe tu pedido caliente en la puerta de tu casa en menos de 30 minutos</p>
+            </div>
+            <div class="promo-card">
+                <div class="promo-icon">🏆</div>
+                <h3 class="promo-title">Calidad Premium</h3>
+                <p class="promo-description">Usamos solo ingredientes de la más alta calidad en todos nuestros platillos</p>
+            </div>
+            <div class="promo-card">
+                <div class="promo-icon">❤️</div>
+                <h3 class="promo-title">Hecho con Amor</h3>
+                <p class="promo-description">Cada platillo es preparado con dedicación y pasión por la cocina</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros">
+        <div class="section-header fade-in">
+            <h2 class="section-title">Nuestra Historia</h2>
+            <p class="section-subtitle">Más que comida, somos una familia</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Sabor auténtico desde 1995</h3>
+                <p>En Tacos "El Chavocho" llevamos más de 25 años sirviendo los mejores tacos de la región. Nuestra historia comenzó con una pequeña carreta en el mercado local, donde Don Chavocho preparaba sus famosas recetas familiares.</p>
+                <p>Hoy en día, seguimos manteniendo esas tradiciones y secretos culinarios, combinándolos con ingredientes frescos y de la más alta calidad. Cada taco, cada gringa, cada platillo es preparado con el mismo amor y dedicación que nos caracteriza desde el primer día.</p>
+                <p>Ven y sé parte de nuestra familia. ¡Te esperamos con los brazos abiertos y el comal caliente!</p>
+            </div>
+            <div class="about-image">🌮</div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <div class="section-header fade-in">
+            <h2 class="section-title">Contáctanos</h2>
+            <p class="section-subtitle">¿Tienes alguna pregunta? Nos encantaría escucharte</p>
+        </div>
+        <div class="contact-container">
+            <form id="contactForm" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label>Nombre completo</label>
+                    <input type="text" required placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label>Correo electrónico</label>
+                    <input type="email" required placeholder="tu@email.com">
+                </div>
+                <div class="form-group">
+                    <label>Teléfono</label>
+                    <input type="tel" required placeholder="123-456-7890">
+                </div>
+                <div class="form-group">
+                    <label>Mensaje</label>
+                    <textarea required placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+  
+
 
 			
 
@@ -686,4 +769,5 @@
 
 		</script>
 	</body>
+
 </html>
